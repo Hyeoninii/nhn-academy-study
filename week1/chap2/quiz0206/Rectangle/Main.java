@@ -2,6 +2,7 @@ package Rectangle;
 
 import java.util.Scanner;
 
+//Quiz 2-6 prob 6
 public class Main {
     public static void main(String[] args) {
 
