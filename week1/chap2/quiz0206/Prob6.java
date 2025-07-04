@@ -1,6 +1,6 @@
 package quiz0206;
 
-import my.package;
+import my.packages.Person;
 import java.util.Scanner;
 
 public class Prob6 {
@@ -14,5 +14,7 @@ public class Prob6 {
 
         Person p = new Person(name, age);
         p.printInfo();
+
+        sc.close();
     }
 }

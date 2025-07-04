@@ -1,4 +1,4 @@
-package my.package;
+package my.packages;
 
 public class Person {
     private String name;
