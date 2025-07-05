@@ -10,6 +10,7 @@ public class Prob1 {
         int sum = 0;
         int count = 0;
         System.out.print("양의 정수를 입력하세요 (0을 입력하면 종료): ");
+        
         while((n = sc.nextInt()) != 0) {
             sum += n;
             count++;
