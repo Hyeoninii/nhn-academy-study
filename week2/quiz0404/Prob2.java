@@ -3,9 +3,16 @@ package quiz0404;
 
 public class Prob2 {
     public static void main(String[] args) {
-    
-        java.util.function.Function<String, Integer> stringLength = s -> s.length();
+        nextN(3);
+    }
+    public static int nextN(int currentN) {
+        System.out.print(currentN+ " ");
+        if(currentN==1) return 1;
 
-        System.out.println("문자열 길이: " + stringLength.apply("Hello Lambda"));
+        if(currentN%2==0) {
+            return nextN(currentN/2);
+        } else {
+            return nextN(currentN*3+1);
+        }
     }
 } 

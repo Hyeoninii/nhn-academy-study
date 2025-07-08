@@ -3,8 +3,10 @@ package quiz0404;
 
 public class Prob3 {
     public static void main(String[] args) {
-        java.util.function.Predicate<Integer> isEven = x -> x%2 == 0;
-        System.out.println("4는 짝수인가? " + isEven.test(4));
-        System.out.println("7는 짝수인가? " + isEven.test(7));
+        System.out.println(checkEvenOdd(13));
+    }
+    public static String checkEvenOdd(int number) {
+        if(number%2==0) return "짝수";
+        else return "홀수";
     }
 } 

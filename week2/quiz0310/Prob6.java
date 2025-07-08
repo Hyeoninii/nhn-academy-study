@@ -21,7 +21,7 @@ public class Prob6 {
         System.out.println("Among integers between 1 and 10000,");
         System.out.println("The maximum number of divisors was " + maxDivisors);
         System.out.println("Numbers with that many divisors include:");
-        for (int i=1; i<=N; i++) {
+        for (int i=1; i<=n; i++) {
             if (divisorCount[i] == maxDivisors) {
                 System.out.println("   " + i);
             }
