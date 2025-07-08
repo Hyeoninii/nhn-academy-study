@@ -8,11 +8,13 @@ public class Prob16 {
         Scanner sc = new Scanner(System.in);
         System.out.print("정수를 입력하세요: ");
         int n = sc.nextInt();
-        if(n%1000!=0&&n%10000==0) {
+        
+        if(n >= 1000 && n <= 9999) {
             System.out.println("네자리수입니다.");
-        }else{
+        } else {
             System.out.println("네자리수가 아닙니다.");
         }
+        
         sc.close();
     }
 } 

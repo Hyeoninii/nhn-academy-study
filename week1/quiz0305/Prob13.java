@@ -9,9 +9,9 @@ public class Prob13 {
         System.out.print("정수를 입력하세요: ");
         int n = sc.nextInt();
         if(n%3==0 || n%5==0) {
-            System.out.println(n+"은/는 3의 배수 또는 5의 배수입니다.");
+            System.out.println(n+"은/는 3 또는 5의 배수입니다.");
         }else{
-            System.out.println(n+"은/는 3의 배수 또는 5의 배수가 아닙니다.");
+            System.out.println(n+"은/는 3 또는 5의 배수가 아닙니다.");
         }
         sc.close();
     }

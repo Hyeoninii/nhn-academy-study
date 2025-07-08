@@ -9,7 +9,7 @@ public class Prob5 {
         System.out.print("점수를 입력하세요: ");
         int score = sc.nextInt();
 
-        System.out.print("성적: "+);
+        System.out.print("성적: ");
         if(score>=90 && score<=100){
             System.out.println("A");
         }else if(score>=80 && score<90){
