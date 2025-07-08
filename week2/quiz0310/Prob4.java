@@ -35,5 +35,6 @@ public class Prob4 {
         if (word.length() > 0) {
             System.out.println(word);
         }
+        sc.close();
     }
 }
